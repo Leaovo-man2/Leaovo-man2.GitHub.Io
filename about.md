@@ -10,3 +10,7 @@ permalink: /about/
 会写Python🤞
 
 Gitee： https://gitee.com/Lenovo-man
+
+😘徽章：
+
+![img](https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png)
