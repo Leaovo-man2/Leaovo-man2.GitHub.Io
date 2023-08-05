@@ -62,8 +62,8 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  clientID: f5cb78713cfe5b17699e
-  clientSecret: e5c4a668271003eddaf9cbca9c80a4d4b459a738
+  clientID: cd6d5f9a0cd9dac98599
+  clientSecret: 464743696a42250d137f5aee028aa79eed56b287
   repo: Leaovo-man2.github.io
   owner: Leaovo-man2
 
