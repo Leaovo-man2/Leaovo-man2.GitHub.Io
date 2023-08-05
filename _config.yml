@@ -64,7 +64,7 @@ disqus: # fromendworld
 gitalk:
   clientID: cd6d5f9a0cd9dac98599
   clientSecret: 464743696a42250d137f5aee028aa79eed56b287
-  repo: Leaovo-man2.github.io
+  repo: blog_comments
   owner: Leaovo-man2
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
