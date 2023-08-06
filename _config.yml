@@ -28,8 +28,7 @@ navigation:
     url: /archive
   - name: 标签
     url: /tags
-  - name: 评论
-    url: /commets
+
 
 # Pagination
 paginate: 8
