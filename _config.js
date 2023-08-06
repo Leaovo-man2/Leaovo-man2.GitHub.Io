@@ -1,8 +1,8 @@
 const http =  require("http")
 const request = require('request')
 
-const client_id = "cd6d5f9a0cd9dac98599"
-const client_secret = "464743696a42250d137f5aee028aa79eed56b287"
+const client_id = "f5cb78713cfe5b17699e"
+const client_secret = "d00ab4e50981b43d483cdc16c1b647ac08275100"
 const proxy_url = "https://github.com/login/oauth/access_token"
 
 
