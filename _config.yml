@@ -66,7 +66,7 @@ var gitalk = new Gitalk({
   repo: 'blog_comments'      // 存放评论的仓库
   owner: 'Leaovo-man2',          // 仓库的创建者，
   id: location.pathname,
-  proxy: https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token                                  // 用于标记评论是哪个页面的，确保唯一，并且长度小于50
+  // 用于标记评论是哪个页面的，确保唯一，并且长度小于50
 })
 
 gitalk.render('gitalk-container');    // 渲染Gitalk评论组件
