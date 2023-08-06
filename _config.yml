@@ -65,7 +65,8 @@ var gitalk = new Gitalk({
   clientSecret: 'fe9e4a31d2acce6e532b0d1f9861887d58a32bcf', // GitHub Application Client Secret
   repo: 'Leaovo-man2.github.io'      // 存放评论的仓库
   owner: 'Leaovo-man2',          // 仓库的创建者，
-  id: location.pathname,      // 用于标记评论是哪个页面的，确保唯一，并且长度小于50
+  id: location.pathname,
+  proxy: https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token                                  // 用于标记评论是哪个页面的，确保唯一，并且长度小于50
 })
 
 gitalk.render('gitalk-container');    // 渲染Gitalk评论组件
