@@ -27,8 +27,8 @@ http.createServer(function (req, res) {
                         'accept': 'application/json'
                     },
                     form: {
-                        'client_id': cd6d5f9a0cd9dac98599,
-                        'client_secret': 464743696a42250d137f5aee028aa79eed56b287,
+                        'client_id': f5cb78713cfe5b17699e,
+                        'client_secret': d00ab4e50981b43d483cdc16c1b647ac08275100,
                         'code': obj.code,
                     },
                 }, (err, grsp, gbody)=>{
