@@ -13,3 +13,6 @@ Gitee： https://gitee.com/Lenovo-man
 😘徽章：
 
 ![img](https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png)
+
+ps：建议搭配Dark Reader深色模式使用
+![Dark Reader](https://microsoftedge.microsoft.com/addons/detail/dark-reader/ifoakfbpdcdoeenechcleahebpibofpc)
