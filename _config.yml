@@ -62,7 +62,7 @@ footer-text: Copyright (c) 2023 leaovo-man2
 disqus: # fromendworld
 var gitalk = new Gitalk({
   clientID: 'f5cb78713cfe5b17699e', // GitHub Application Client ID
-  clientSecret: 'd00ab4e50981b43d483cdc16c1b647ac08275100', // GitHub Application Client Secret
+  clientSecret: 'fe9e4a31d2acce6e532b0d1f9861887d58a32bcf', // GitHub Application Client Secret
   repo: 'Leaovo-man2.github.io'      // 存放评论的仓库
   owner: 'Leaovo-man2',          // 仓库的创建者，
   id: location.pathname,      // 用于标记评论是哪个页面的，确保唯一，并且长度小于50
