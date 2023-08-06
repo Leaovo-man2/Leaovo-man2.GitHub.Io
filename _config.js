@@ -1,8 +1,8 @@
 const http =  require("http")
 const request = require('request')
 
-const client_id = "f5cb78713cfe5b17699e"
-const client_secret = "fe9e4a31d2acce6e532b0d1f9861887d58a32bcf"
+const client_id = "4f186e62707e9aea860f"
+const client_secret = "a8c2747c7f42a55c3e99375f5561d927fcdc973bf"
 const proxy_url = "https://github.com/login/oauth/access_token"
 
 
@@ -27,8 +27,8 @@ http.createServer(function (req, res) {
                         'accept': 'application/json'
                     },
                     form: {
-                        'client_id': f5cb78713cfe5b17699e,
-                        'client_secret': fe9e4a31d2acce6e532b0d1f9861887d58a32bcf,
+                        'client_id': 4f186e62707e9aea860f,
+                        'client_secret': a8c2747c7f42a55c3e99375f5561d927fcdc973b,
                         'code': obj.code,
                     },
                 }, (err, grsp, gbody)=>{
