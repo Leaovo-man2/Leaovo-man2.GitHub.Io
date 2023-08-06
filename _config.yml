@@ -61,8 +61,8 @@ footer-text: Copyright (c) 2023 leaovo-man2
 # You can find your shortname on the Settings page of your Disqus account
 disqus: # fromendworld
 var gitalk = new Gitalk({
-  clientID: 'cd6d5f9a0cd9dac98599', // GitHub Application Client ID
-  clientSecret: '464743696a42250d137f5aee028aa79eed56b287', // GitHub Application Client Secret
+  clientID: 'f5cb78713cfe5b17699e', // GitHub Application Client ID
+  clientSecret: 'd00ab4e50981b43d483cdc16c1b647ac08275100', // GitHub Application Client Secret
   repo: 'blog_comments'      // 存放评论的仓库
   owner: 'Leaovo-man2',          // 仓库的创建者，
   admin: ['Leaovo-man2'],        // 如果仓库有多个人可以操作，那么在这里以数组形式写出
