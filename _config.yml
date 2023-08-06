@@ -65,7 +65,6 @@ var gitalk = new Gitalk({
   clientSecret: 'd00ab4e50981b43d483cdc16c1b647ac08275100', // GitHub Application Client Secret
   repo: 'blog_comments'      // 存放评论的仓库
   owner: 'Leaovo-man2',          // 仓库的创建者，
-  admin: ['Leaovo-man2'],        // 如果仓库有多个人可以操作，那么在这里以数组形式写出
   id: location.pathname,      // 用于标记评论是哪个页面的，确保唯一，并且长度小于50
 })
 
