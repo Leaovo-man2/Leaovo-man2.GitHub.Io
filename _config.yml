@@ -59,17 +59,8 @@ footer-text: Copyright (c) 2023 leaovo-man2
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: # fromendworld
-var gitalk = new Gitalk({
-  clientID: '4f186e62707e9aea860f', // GitHub Application Client ID
-  clientSecret: 'a839ec531750c51f59bd92b6351fe221a06f2a07', // GitHub Application Client Secret
-  repo: 'blog_comments'      // 存放评论的仓库
-  owner: 'Leaovo-man2',          // 仓库的创建者，
-  id: location.pathname,
-  // 用于标记评论是哪个页面的，确保唯一，并且长度小于50
-})
 
-gitalk.render('gitalk-container');    // 渲染Gitalk评论组件
+
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 #google_analytics: 
