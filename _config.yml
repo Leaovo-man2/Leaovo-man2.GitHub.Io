@@ -67,6 +67,9 @@ gitalk:
   clientSecret: a839ec531750c51f59bd92b6351fe221a06f2a07
   repo: Leaovo-man2.github.io
   owner: Leaovo-man2
+    const gitalk = new Gitalk({
+      proxy: 'https://proxy'
+    })
 
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
