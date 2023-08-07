@@ -63,7 +63,7 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  proxy: 'https://Leaovo-man2.github.io'
+  proxy: 'https://192.168.0.1'
   clientID: 4f186e62707e9aea860f
   clientSecret: a839ec531750c51f59bd92b6351fe221a06f2a07
   repo: Leaovo-man2.github.io
