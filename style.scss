@@ -18,11 +18,9 @@
 html {
   font-size: $base-font-size;
 }
-body {
-cursor: url(images/6835.cur), auto;
-} 
 
 body {
+  cursor: url(/images/6835.cur), auto;
   font-family: $base-font;
   color: $base-color;
   line-height: 1.7em;
