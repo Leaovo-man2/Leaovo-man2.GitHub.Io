@@ -40,24 +40,6 @@ layout: default
             });
 
 </script>
-  <!-- Gitalk 评论 start  -->
-  <div id="gitalk-container"></div>
-      <script type="text/javascript">
-      var title = location.pathname.substr(0, 50);//截取路径的前50个字符作为标识符
-      var gitalk = new Gitalk({
-
-      // gitalk的主要参数
-          clientID: `51d844d374d1bba85b04`,
-          clientSecret: `9f70d119cf220e00ec70da7e9c2fa29075a39167`,
-          repo: `Leaovo-man2.github.io`,
-          owner: 'Leaovo-man2',
-          admin: ['Leaovo-man2'],
-          id: title,//因为这里不能超过50字符，所以做了处理，当超过50时自动截取前50
-     
-      });
-      gitalk.render('gitalk-container');
-      </script>
-  <!-- Gitalk end -->
 
 {% if site.posts.size == 0 %}
   <h2>No post found</h2>
