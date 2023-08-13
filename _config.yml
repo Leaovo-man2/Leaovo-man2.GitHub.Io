@@ -65,11 +65,18 @@ disqus:  # fromendworld
 
 # Gitalk
 gitalk:
-  clientID: ba30683739f8fa9d2578
-  clientSecret: 7ba5e5a5fa6118350fadeaccb65d3a3de6b6af4d
-  repo: Leaovo-man2.github.io
-  owner: Leaovo-man2
-
+  enable: true
+  autoExpand: true
+  clientID: 'ba30683739f8fa9d2578'
+  clientSecret: 'd2f5d4f6fcb4c6bf21d874ac87a0c4e3b96548fe'
+  repo: 'Leaovo-man2.github.io' #仓库名 这个别搞错
+  owner: 'Leaovo-man2'
+  admin: ['Leaovo-man2']
+  id: uid
+  language: cn
+  distractionFreeMode: true
+  recentComment: true
+  proxy: ''
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 #google_analytics: 
