@@ -76,7 +76,7 @@ gitalk:
   language: cn
   distractionFreeMode: true
   recentComment: true
-  proxy: '192.168.0.1'
+  proxy: https://strong-caramel-969805.netlify.app/github_access_token
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 #google_analytics: 
