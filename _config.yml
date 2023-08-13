@@ -61,9 +61,14 @@ footer-text: Copyright (c) 2023 leaovo-man2
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-# fromendworld
+disqus:  # fromendworld
 
 # Gitalk
+gitalk:
+  clientID: ba30683739f8fa9d2578
+  clientSecret: 7ba5e5a5fa6118350fadeaccb65d3a3de6b6af4d
+  repo: Leaovo-man2.github.io
+  owner: Leaovo-man2
 
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
