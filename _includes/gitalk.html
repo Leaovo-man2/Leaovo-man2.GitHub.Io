@@ -3,14 +3,6 @@
     <div id="gitalk-container"></div>
     <script>
         const gitalk = new Gitalk({
-           clientID: 'ba30683739f8fa9d2578', // clientID 
-           clientSecret: 'd2f5d4f6fcb4c6bf21d874ac87a0c4e3b96548fe', // clientSecret
-           repo: 'blog_comments', // 评论仓库名
-           owner: 'Leaovo-man2',
-           admin: ['Leaovo-man2'], // 管理人
-           id: location.pathname, // 返回当前 URL 的路径部分作为id
-           language:'zh-CN', // 语言
-           distractionFreeMode: false  // 无干扰模式
            proxy: 'http://192.169.0.1:8011/get_access_token'
 
         })
