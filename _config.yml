@@ -76,7 +76,7 @@ gitalk:
   language: cn
   distractionFreeMode: true
   recentComment: true
-  proxy: ''
+  proxy: '192.168.0.1'
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 #google_analytics: 
