@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="/static/blog/css/home_site.css">
+    <link type="text/css" rel="stylesheet" href="/static/blog/css/article_detail.css">
+    <link type="text/css" rel="stylesheet" href="/static/blog/bootstrap/css/bootstrap.css">
+    <script src="/static/js/jquery-3.2.1.min.js"></script> //先引入它
+</head>
+<body>
+<div class="header">
+    <div class="content">
+        <p class="title">
+            <span>{{ blog.title }}</span>
+            <a href="" class="backend">管理</a>
+        </p>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 menu" >
+            {% load my_tags %}
+            {% get_classification_style username %}
+        </div>
+        <div class="col-md-9">
+           {% block content %}  {# 写个块留着扩展用#}
+            {% endblock %}
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
