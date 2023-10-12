@@ -33,24 +33,24 @@ body {
   width: 100%;
 }
 .button {
-	background-color: #0078D7;
+        background-color: #e8dfdf;
         border: none;
-        color: white;
+        color: #cccccc;
         padding: 10px 20px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 18px;
         border-radius: 4px;
-        box-shadow: 0px 0px 5px #bbb;
+        box-shadow: 0px 0px 5px #c0bebe;
         transition: all 0.2s ease-in-out;
         cursor: pointer;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+      }
 
-      .button:hover {
-        background-color: #106EBE;
-        box-shadow: 0px 3px 5px #bbb;
+.button:hover {
+        background-color: #bdbdbd;
+        box-shadow: 0px 3px 5px #ffffff;
         transform: translateY(-3px);
       }
     </style>
