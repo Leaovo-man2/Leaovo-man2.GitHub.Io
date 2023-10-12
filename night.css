@@ -1,0 +1,5 @@
+/* 黑夜模式 */
+body.night {
+  background-color: #333;
+  color: #fff;
+}
