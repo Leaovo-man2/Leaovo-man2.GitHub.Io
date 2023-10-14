@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<li><button onclick="toggleTheme()">切换主题</button></li> <!-- 添加切换主题的按钮 -->
 <div id="gitalk-container"></div>
 <div class="search-container">
   <input type="text" id="search-input" placeholder="search blog posts..." style="width: 90%;
@@ -85,12 +86,30 @@ layout: default
  
         }
    }());
-<!-- 白天模式 -->
-<link rel="stylesheet" href="day.css">
 
-<!-- 黑夜模式 -->
-<link rel="stylesheet" href="night.css">
 </script>
+<script>
+	function toggleTheme() {
+    		var theme = localStorage.getItem('theme');
+    		if (theme === 'dark') {
+        		document.getElementById('theme-style').href = '/css/light.css';
+        		localStorage.setItem('theme', 'light');
+    		} else {
+        		document.getElementById('theme-style').href = '/css/dark.css';
+        		localStorage.setItem('theme', 'dark');
+    		}
+	}
+</script>
+	
+document.addEventListener('DOMContentLoaded', function(event) {
+    var theme = localStorage.getItem('theme');
+    if (theme === 'dark') {
+        document.getElementById('theme-style').href = '/css/dark.css';
+    } else {
+        document.getElementById('theme-style').href = '/css/light.css';
+    }
+});
+
 {% if site.posts.size == 0 %}
   <h2>No post found</h2>
 {% endif %}
